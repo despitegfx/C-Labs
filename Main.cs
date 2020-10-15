@@ -18,12 +18,13 @@ namespace Mymain
 
             for (int i = 0; i < student.Length; i++)
             {
-                student[i] = new Student("Emmanuel Bonsu0","Maths", "Advance", "70%", "Turntabl", "A+");
+                student[i] = new Student("Emmanuel Bonsu","Maths", "Advance", "70%", "Turntabl", "A+");
+                 Console.WriteLine(student[i].getname());
             }
 
             foreach (var studentItem in student)
             {
-                Console.WriteLine(studentItem.getname());
+                // Console.WriteLine(studentItem.getname());
             }
 
         }
