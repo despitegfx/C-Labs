@@ -5,7 +5,12 @@ class Student : Person{
         set{
             gradeList[] grade;
             Grades = grade[5];
-        }get;}
+        }
+        get
+        {
+            Grades = Grades;
+        }
+            }
 
     public string Listen(){
         return "";
